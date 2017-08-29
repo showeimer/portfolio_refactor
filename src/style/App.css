@@ -1,3 +1,7 @@
+.selected {
+  color: yellow;
+}
+
 /* HOME PAGE */
 
 .skillsList {
@@ -83,4 +87,25 @@ footer {
 
 .portfolio img {
   margin-bottom: 5%;
+}
+
+/* CONTACT PAGE */
+
+.contactInfo {
+  margin-top: 5%;
+}
+
+/* REFERENCES PAGE */
+span {
+  font-weight: bold;
+}
+
+.commentContainer {
+  border-bottom: 1px solid black;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.comments {
+  font-style: italic;
 }

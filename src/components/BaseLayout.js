@@ -9,7 +9,7 @@ class BaseLayout extends Component {
     return (
       <div className="container">
         <nav className="nav nav-bar-dark bg-dark justify-content-end">
-          <NavLink activeClassName="selected" className="nav-link" to="/">SplashPage</NavLink>
+          <NavLink activeClassName="selected" className="nav-link" exact to="/">SplashPage</NavLink>
           <NavLink activeClassName="selected" className="nav-link" to="/home">Home</NavLink>
           <NavLink activeClassName="selected" className="nav-link" to="/about">About</NavLink>
           <NavLink activeClassName="selected" className="nav-link" to="/myportfolio">Portfolio</NavLink>
